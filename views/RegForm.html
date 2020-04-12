@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<head>
+    <meta name = "viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+        <title>Student Sign up</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-6 col-md-8  ">
+                <br>
+                <h1 class="display-4">Sign Up</h1><hr>
+                <div class="jumbotron">
+                <form action="../controllers/RegFormCont.php" method="POST" >
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                          <label for="inputEmail4">First Name</label>
+                          <input type="text" required name="firstname" class="form-control" id="inputEmail4">
+                        </div>
+                        <div class="form-group col-md-6">
+                          <label for="inputPassword4">Last Name</label>
+                          <input type="text" required name="lastname" class="form-control" id="inputPassword4">
+                        </div>
+                      </div>            
+                      
+                      <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input name="email" required placeholder="Email" type="email" class="form-control" id="exampleInputEmail1" >
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                      </div>
+                       
+                    <label for="inputPassword5">Password</label>
+                    <input name="password" required placeholder="Password" type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+                    <small id="passwordHelpBlock" class="form-text text-muted">
+                    Password must be 8-20 characters long, must contain letters, numbers, special characters. Must not contain spaces.
+                    </small><br>
+                    <input class="btn btn-primary" type="submit" value="Sign Up"> &nbsp <input class="btn btn-primary" type="reset" value="Clear"><p><p>
+                </form>
+            </div>
+            </div>
+        </div>
+        
+    </div>
+</body>
