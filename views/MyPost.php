@@ -5,7 +5,7 @@ if(isset($_SESSION['email'])){
 ?>
 <html lang="en">
 <head>
-  <?php session_start();
+  <?php
     include_once '../controllers/dbconfig.php' ?>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -55,7 +55,7 @@ if(isset($_SESSION['email'])){
       <div style="height: 5rem;"></div>
     <!-- SEARCHBOX -->
     <div class="container fluid-padding">
-        <div class="row mt-1 ">
+        <div class="row mt-3 ">
             <div class="col-lg-8" >
                 <form action="SearchPg.php" method="POST" class="form-inline">
                     <div class="input-group mb-3 vw-100">
