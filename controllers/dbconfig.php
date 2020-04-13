@@ -1,6 +1,6 @@
 <?php
     $server = 'remotemysql.com';
-    $dbname = 'myblog';
+    $dbname = 'Oi1MmsKaw1';
     $dbuser = 'Oi1MmsKaw1';
     $dbpass = 'V1rzgGOG3e';
 
