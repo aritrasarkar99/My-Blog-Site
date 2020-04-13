@@ -1,8 +1,8 @@
 <?php
-    $server = 'localhost';
+    $server = 'remotemysql.com';
     $dbname = 'myblog';
-    $dbuser = 'root';
-    $dbpass = '';
+    $dbuser = 'Oi1MmsKaw1';
+    $dbpass = 'V1rzgGOG3e';
 
     $conn = mysqli_connect($server,$dbuser,$dbpass,$dbname)
 ?>
